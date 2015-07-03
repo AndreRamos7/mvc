@@ -34,5 +34,5 @@ class Model {
     public function delete( $where ){
         return $this->db->query("DELETE FROM `{$this->_tabela}` WHERE {$where}");
     }
+    
 }
-?>
